@@ -1,0 +1,4 @@
+# Yayın = şifreli baytlar (e/*.bin, feed.enc.json). Git bu dosyalarda satır sonu aramaz,
+# dönüştürmez, "text" saymaz: rastgele baytlar CRLF'e benzediğinde repoya dokunması yeterli.
+* -text
+*.bin binary
